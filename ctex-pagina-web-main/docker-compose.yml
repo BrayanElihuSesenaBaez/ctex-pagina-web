@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ctex_frontend:
+    # Usa el Dockerfile que acabamos de crear para construir la imagen
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Mapea el puerto 80 del contenedor al puerto 3000 de tu máquina
+    ports:
+      - "3000:80"
+    # Reinicia el contenedor si falla
+    restart: always
+    # Nombre del contenedor (opcional, para fácil identificación)
+    container_name: ctex-web-prod
