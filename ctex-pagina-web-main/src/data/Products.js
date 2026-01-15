@@ -237,8 +237,8 @@ export const products = [
         price: 49358,
         description: "Enfriador cervecero vertical sub-zero de alta capacidad con cristal doble, control inteligente e iluminación LED de alta intensidad.",
         whatsappProduct: "Metalfrio VN-100",
-        image: "public/img/catalogo/ENFR-VN-100.webp",
-        manualPdf: "/docs/manuales/metalfrio-vn-100.pdf",
+        image: "/img/catalogo/ENFR-VN-100.webp",
+        manualPdf: "        /docs/manuales/REFRIGERACION-COMERCIAL/METALFRIO/ENFRIADORES-CERVECEROS/ENFR-VN-100.pdf",
         details: [
             { label: "Capacidad", value: "39 ft³ (1091 L)" },
             { label: "Temperatura", value: "-1.5°C a -5.5°C" },
@@ -258,8 +258,8 @@ export const products = [
         price: 73544,
         description: "Enfriador cervecero sub-zero de gran volumen con cristal doble, control inteligente e iluminación LED de alta intensidad.",
         whatsappProduct: "Metalfrio VN-135",
-        image: "/img/catalogo/refrigeracion/vn-135.webp",
-        manualPdf: "/docs/manuales/metalfrio-vn-135.pdf",
+        image: "/img/catalogo/ENFR-VN-135.webp",
+        manualPdf: " /docs/manuales/REFRIGERACION-COMERCIAL/METALFRIO/ENFRIADORES-CERVECEROS/ENFR-VN-135.pdf",
         details: [
             { label: "Capacidad", value: "66 ft³ (1883 L)" },
             { label: "Temperatura", value: "-1.5°C a -5.5°C" },
